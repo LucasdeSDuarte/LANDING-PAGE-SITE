@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\css\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">   
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content 
+            menu-content">
+            <h1 onclick="getElementbyId('close-menu').checked = false;"> 
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementbyId('close-menu').checked = false;">
+
+                    <li><a href="#home">Intro</a></li>
+                    <li><a href="#requisitos">Avaliação</a></li>
+                    <li><a href="#top3">Top 3</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#precos">Valores</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>  
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="main-bg section">
+        <div class="main-content into-content">
+            <div class="intro-text-content">
+                <h2>Chega no ouvido do crush e diz: Trouxe pão de mel para você</h2>
+                <p>Doce clássico e conhecido mundo afora, o pão de mel é montado a partir de uma massa fofa (semelhante a um bolo), um recheio (normalmente de doce de leite) e uma cobertura de chocolate.
+                Apesar de ter essa formação básica, hoje em dia já é possível encontrar inúmeras variedades do doce, seja com relação ao recheio ou à sua forma</p>
+            </div>
+
+
+            <div class="intro-img">
+                <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/paodemelreceita3-fb.webp" alt="Imagem de Pão de Mel Cortado ao meio" >
+            </div>
+
+        </div>
+    </section>
+    <section id="requisitos" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Criterios Avaliados</h2>
+            <p>Em primeiro lugar, as vendas desempenham um papel fundamental na determinação do sucesso desses recheios. A alta demanda por esses produtos indica que eles estão atendendo às expectativas dos consumidores e despertando interesse suficiente para impulsionar suas vendas.
+            A aceitação dos clientes é outro aspecto relevante. Quando um recheio é bem aceito, significa que ele satisfaz o paladar das pessoas e cumpre suas expectativas em termos de sabor, textura e qualidade. O boca a boca positivo também desempenha um papel importante, já que as recomendações de amigos e familiares influenciam a decisão de compra dos consumidores.  
+            Avaliações e encomendas também são fatores a serem considerados. As avaliações e feedbacks dos clientes ajudam a construir uma reputação positiva para os recheios, pois fornecem informações valiosas sobre a experiência do consumidor. Além disso, as encomendas, sejam elas feitas por indivíduos, confeitarias ou empresas, demonstram a confiança na qualidade e na capacidade desses recheios em atender às necessidades e expectativas dos clientes.</p>          
+        </div>
+    </section>
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">TOP 3 RECHEIOS</h2>
+            <p class="grid-description">Os melhores recheios</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Leite Ninho</h3>
+                    <p>O recheio de Leite Ninho é um verdadeiro sucesso nas vendas e não é à toa. Com seu sabor suave e doce, versatilidade e facilidade de preparo, ele conquistou o paladar de muitas pessoas ao redor do mundo. Sua cremosidade e textura aveludada são características marcantes, tornando-o perfeito para ser utilizado em uma infinidade de sobremesas. Além disso, o recheio de Leite Ninho desperta lembranças afetivas e tem o poder de tornar qualquer prato especial. Com todas essas qualidades, não é surpresa que ele seja o líder de vendas quando se trata de recheios.</p>
+                </article>
+                <article>
+                    <h3>Doce de Leite</h3>
+                    <p>O doce de leite é um clássico que ocupa o segundo lugar no ranking dos recheios mais vendidos. Sua textura cremosa e sabor adocicado conquistam os paladares mais exigentes. Feito a partir do leite, açúcar e uma pitada de paciência, o doce de leite é um deleite irresistível em diversas preparações, desde recheios de bolos e tortas até coberturas e acompanhamentos para sobremesas. Sua versatilidade e agradável sabor caramelizado o tornam um sucesso garantido.</p>
+                </article>
+                <article>
+                    <h3>Prestigio</h3>
+                    <p>Em terceiro lugar nas vendas de recheios está o prestígio. Inspirado na famosa combinação de coco e chocolate, esse recheio é um verdadeiro clássico brasileiro. Com sua textura macia e sabor intenso, o prestígio traz uma explosão de sabores na boca. O coco proporciona uma sensação tropical e refrescante, enquanto o chocolate ao leite traz a doçura e a cremosidade. Essa combinação de ingredientes faz do recheio prestígio uma escolha popular. Seu apelo visual e sabor irresistível fazem dele uma opção queridinha.</p>
+                </article>
+            </div>
+        </div> 
+        <section id="galeria" class="grid-one white-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">GALERIA</h2>
+                <p class="grid-description">Pão de Mel Imagens ilustrativas</p>
+    
+                <div class="grid">
+                    <div class="galeria-img">
+                        <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/receitatoda.jpg" alt="Pão de mel">        
+                    </div>
+                    <div class="galeria-img">
+                         <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/leiteninho.jpg" alt="Pão de mel leite ninho">
+                    </div>
+                    <div class="galeria-img">
+                        <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/fofinho.jpg" alt="Pão de mel recheios2">
+                    </div>
+                    <div class="galeria-img">
+                        <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/trufado1.jpg" alt="Pão Trunfado">
+                    </div>
+                    <div class="galeria-img">
+                        <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/amendoim.jpg" alt="Pão de mel de Amendoim">
+                    </div>
+                    <div class="galeria-img">
+                        <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/maracuja.jpg" alt="Pão de mel maracuja">
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="servicos" class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">Serviços</h2>
+                <p class="grid-description">Temos opções de alguns Serviços</p>
+    
+                <div class="grid">
+                    <article>
+                        <h3>Encomendas</h3>
+                        <p>Oferecemos encomendas de pães de mel deliciosos, feitos com ingredientes de alta qualidade. Personalizamos os pães de mel de acordo com suas preferências e aceitamos encomendas de qualquer quantidade. Garantimos frescor e máxima qualidade. Faça sua encomenda e desfrute dessa delícia irresistível.</p>
+                    </article>
+                    <article>
+                        <h3>Delivery</h3>
+                        <p>Eu ofereço serviço de entrega em um raio de 10 km na região, tanto através do aplicativo Uber Eats quanto do iFood, com os custos de entrega por conta do cliente.</p>
+                    </article>
+                    <article>
+                        <h3>Personalizações</h3>
+                        <p> também ofereço personalizações de embalagens e recheios para atender às preferências individuais dos clientes. Dessa forma, posso garantir uma experiência ainda mais satisfatória, tornando cada pedido único e especial.</p>
+                    </article>
+                </div>
+            </div> 
+        <section id="precos" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>Valores</h2>
+                <p>O preço deste produto é determinado de acordo com o tamanho selecionado, oferecendo opções para os tamanhos M, G e GG. Essa estrutura de preços permite uma maior flexibilidade para nossos clientes. Ao escolher o tamanho desejado, você poderá visualizar o preço correspondente, garantindo transparência e acomodando as necessidades individuais de cada cliente. Nossa prioridade é fornecer um produto de qualidade que atenda às suas preferências</p> 
+
+               <div class="responsive-table">
+                    <table>
+                        <caption>Tabela de Preço</caption>
+                        <thead>
+                            <tr>
+                            <th>Tamanhos</th>
+                            <th>Peso(gramas)</th>
+                            <th>Preço Unidade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td>M</td>
+                               <td>20g</td>
+                               <td>R$: 5,00</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                               <td>30g</td>
+                               <td>R$: 8,00</td>
+                              </tr>
+                              <tr>
+                                <td>GG</td>
+                               <td>40g</td>
+                               <td>R$: 10,00</td>
+                              </tr>
+                        </tbody>
+                    </table>
+                </div> 
+            </div>
+        </section>
+        <section id="contato" class="contato-form">
+            <div class="main-content into-content">
+                <div class="intro-text-content">
+                    <h1>Contato</h1>
+                    <p>Estamos aqui para oferecer os melhores serviços e prazos para nosso clientes.
+                    Gostamos de superar expectativas. Entre em contato conosco"</p>
+                </div>
+                <div class="intro-img">
+                    <img src="C:\Users\lukaz\OneDrive\Documentos\CURSOS_PROGRAÇÂO\HTML UDEMY\Landing-page-JS\LANDING-PAGE-SITE\assets\img/paodemelreceita3-fb.webp" alt="Imagem de Pão de Mel Cortado ao meio" >
+                </div>
+
+                <div class="contato-form">
+                    <fieldset class="form-grid">
+                        <legend> contate me</legend>
+                        <div class="form-group">
+                            <label for="frist-name">Primeiro nome</label>
+                            <input type="text" 
+                            nome="frist-name"
+                            id="frist-name" placeholder="Seu Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="Last-name">Segundo nome</label>
+                            <input type="text" 
+                            nome="last-name"
+                            id="last-name" placeholder="Segundo Nome">                        
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="text" 
+                            nome="email"
+                            id="email" placeholder="Seu email">                
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="mensagem">Mensagem</label>
+                             <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea>               
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit">Enviar</button>           
+                        </div>
+                    </fieldset>
+                </div>                  
+            </div>
+        </section>
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofallow" target="_blank" href="">Feito ❤ por Lucas Duarte</a></p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+</html>
+             
