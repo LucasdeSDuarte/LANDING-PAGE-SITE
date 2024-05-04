@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -19,7 +20,9 @@
         <div class="main-content 
             menu-content">
             <h1 onclick="getElementbyId('close-menu').checked = false;"> 
-                <a href="#home">LOGO</a>
+                <a href="#home">
+                    <img src="./assets/img/763526a4-d6c5-4dd3-b353-213a96c5e561.jpeg" alt="Logo" width="70" height="70">
+                  </a>
             </h1>
 
             <nav>
@@ -57,9 +60,7 @@
     <section id="requisitos" class="white-bg section">
         <div class="main-content top3-content">
             <h2>Criterios Avaliados</h2>
-            <p>Em primeiro lugar, as vendas desempenham um papel fundamental na determinação do sucesso desses recheios. A alta demanda por esses produtos indica que eles estão atendendo às expectativas dos consumidores e despertando interesse suficiente para impulsionar suas vendas.
-            A aceitação dos clientes é outro aspecto relevante. Quando um recheio é bem aceito, significa que ele satisfaz o paladar das pessoas e cumpre suas expectativas em termos de sabor, textura e qualidade. O boca a boca positivo também desempenha um papel importante, já que as recomendações de amigos e familiares influenciam a decisão de compra dos consumidores.  
-            Avaliações e encomendas também são fatores a serem considerados. As avaliações e feedbacks dos clientes ajudam a construir uma reputação positiva para os recheios, pois fornecem informações valiosas sobre a experiência do consumidor. Além disso, as encomendas, sejam elas feitas por indivíduos, confeitarias ou empresas, demonstram a confiança na qualidade e na capacidade desses recheios em atender às necessidades e expectativas dos clientes.</p>          
+            <p>Nosso pão de mel gourmet é feito pensando em você, consumidor exigente. Utilizamos apenas ingredientes de primeira linha, cuidadosamente selecionados para garantir a qualidade e a segurança alimentar. Cada detalhe é criteriosamente avaliado para proporcionar a melhor experiência. Sua opinião é fundamental para continuarmos aprimorando nossos produtos. Experimente e compartilhe sua avaliação conosco!</p>
         </div>
     </section>
     <section id="top3" class="grid-one main-bg section">
@@ -147,18 +148,13 @@
                         <tbody>
                             <tr>
                               <td>M</td>
-                               <td>20g</td>
+                               <td>72g</td>
                                <td>R$: 5,00</td>
                             </tr>
                             <tr>
                                 <td>G</td>
-                               <td>30g</td>
-                               <td>R$: 8,00</td>
-                              </tr>
-                              <tr>
-                                <td>GG</td>
-                               <td>40g</td>
-                               <td>R$: 10,00</td>
+                               <td>155g</td>
+                               <td>R$: 15,00</td>
                               </tr>
                         </tbody>
                     </table>
@@ -178,38 +174,47 @@
 
                 <div class="contato-form">
                     <fieldset class="form-grid">
-                        <legend> contate me</legend>
+                        <legend>Contate-me</legend>
+                        
+                        <!-- Instagram -->
                         <div class="form-group">
-                            <label for="frist-name">Primeiro nome</label>
-                            <input type="text" 
-                            nome="frist-name"
-                            id="frist-name" placeholder="Seu Nome">
+                            <label for="last-insta">Instagram</label>
+                            <div style="display: flex; align-items: center;">
+                                <a href="https://www.instagram.com/tete_swett_honey/" target="_blank" style="text-align: center;">
+                                    <img src="./assets/img/instagram.png" alt="Instagram" style="width: 50px;">
+                                </a>
+                            </div>
                         </div>
+                        
+                        <!-- WhatsApp -->
                         <div class="form-group">
-                            <label for="Last-name">Segundo nome</label>
-                            <input type="text" 
-                            nome="last-name"
-                            id="last-name" placeholder="Segundo Nome">                        
+                            <label for="last-WhatsApp">WhatsApp</label>
+                            <a href="https://api.whatsapp.com/send?phone=5511977008490" target="_blank" style="display: inline-block; text-align: center; margin-left: 20px; margin-right: 20px;">
+                                <img src="./assets/img/whatsapp.png" alt="WhatsApp" style="width: 50px;">
+                            </a>
                         </div>
+                        
+                        <!-- E-mail -->
                         <div class="form-group">
                             <label for="email">E-mail</label>
-                            <input type="text" 
-                            nome="email"
-                            id="email" placeholder="Seu email">                
+                            <a href="mailto:stefaniemacedo11@gmail.com " style="display: inline-block; text-align: center;">
+                                <img src="./assets/img/correspondencia.png" alt="Email" style="width: 50px;">
+                            </a>
                         </div>
-                        <div class="form-group full-width">
-                            <label for="mensagem">Mensagem</label>
-                             <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea>               
-                        </div>
-                        <div class="form-group full-width">
-                            <button type="submit">Enviar</button>           
-                        </div>
+                        
                     </fieldset>
-                </div>                  
+                </div>
+                
+                
+                    </fieldset>
+                </div>
+                                
             </div>
         </section>
     <footer id="footer" class="footer white-bg">
-        <p><a rel="nofallow" target="_blank" href="">Feito ❤ por Lucas Duarte</a></p>
+        <p><a rel="nofallow" target="_blank"  href="">Feito ❤ por Téte
+
+        </p>
     </footer>
     <a class="back-to-top" href="#">➤</a>
 </body>

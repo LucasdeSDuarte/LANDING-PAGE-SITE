@@ -278,7 +278,7 @@ table th{
 
 .form-grid legend{
     font-style: italic;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     margin-bottom: 3rem;
 }
 .form-group{
@@ -410,4 +410,5 @@ body .full-width{
     .menu-spacing{
         display: none;
     }
+    
 }
